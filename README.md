@@ -101,3 +101,6 @@ AWS Tagger also supports cross-account role assumption. You will still need to c
 ```
 aws-tagger --role arn:aws:iam::11111111111:role/MyRole --resource i-07a9d0e5 --tag "App:Foobar"
 
+
+Note: for csv file=CONCATENATE("arn:aws:dynamodb:ap-south-1:997200155612:table", B2)
+
